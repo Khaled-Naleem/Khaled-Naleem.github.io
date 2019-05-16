@@ -1,0 +1,184 @@
+﻿html, body{
+	height: 100%;
+	width: 100%;
+}
+.navbar{
+	background-color:  rgb(10, 10, 10);
+  
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+	color: rgba(204, 204, 204, 0.5);
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: rgb(251, 251, 251);
+}
+#home {
+	background: linear-gradient(to right, red , yellow);
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.Landing-text {
+  color: white;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.Landing-text h1 {
+  color: white;
+	font-size: 500%;
+	font-weight: 700%;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%;
+}
+#fixed {
+	background: url(img/background\ 3.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer {
+	widows: 100%;
+	background-color: rgb(10, 10, 10);
+	padding: 5% 5% 2% 5%;
+	color: white;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+}
+.fa:hover {
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+@media (max-width: 768px) {
+	.Landing-text h1{
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+	@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+  .demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: rgba(204, 204, 204, 0.5);
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+	
+#section10 a {
+  padding-top: 60px;
+}
+#section10 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+div {
+  background-color: rgb(10, 10, 10);
+}
+p  {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+h4 {
+  color: white;
+}
+figcaption {
+  color: white;
+}
